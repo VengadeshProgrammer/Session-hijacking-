@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.main > header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid black;
+    height: 100px;
+}
+.main > header> h1{
+    width:105px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    position: relative;
+    bottom: 35px;
+    left:50px;
+    font-size: 35px;
+}
+.main > img{
+    z-index: 1;
+}
+.main > header > .logout{
+    position: relative;
+    left:1200px;
+    top:30px;
+    font-size: 20px;
+    background-color: rgb(84, 105, 212);
+    color: #fff;
+    font-weight: 600;
+    height:50px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(84, 105, 212);
+    outline: none;
+
+}
+.main > header > .create{
+    position: relative;
+    left:980px;
+    top:30px;
+    font-size: 20px;
+    background-color: rgb(245, 150, 42);
+    color: #fff;
+    font-weight: 600;
+    height:50px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(245, 150, 42);
+    outline: none;
+
+}
+.main > header > .logout:hover{
+ cursor: pointer;
+ opacity: .7;
+}
+.main > header > .create:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+.main > img{
+   position: relative;
+   left:125px;
+}
+footer{
+    background-color: antiquewhite;
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+footer > b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
